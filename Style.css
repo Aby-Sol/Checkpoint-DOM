@@ -1,0 +1,157 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(244, 224, 227);
+    justify-content: center;
+    align-items: center;
+}
+
+.Cart-container{
+    margin-top: 20px;
+    width: 60%;
+    height: 30%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px, 25px, 40px rgb(229, 151, 164);
+    display: flex;
+    flex-direction: column;
+   
+    
+
+}
+
+.Header{
+    margin: auto;
+    padding-top: 15px;
+    width: 80%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Heading{
+    font-size: 30px;
+    font-family: "open sans";
+    font-weight: 700;
+    color: lightslategrey;
+}
+
+.DeleteAllButton{
+    font-size: 14px;
+    font-family: 'open sans';
+    font-weight: 600;
+    cursor: pointer;
+    border-bottom: 1px solid  rgb(224, 83, 83) ;
+}
+
+.Item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.Cart-Items{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.heart{
+    color: pink;
+}
+
+.BtnDelete{
+    height: 30px;
+    width: 30px;
+}
+.Btnfavorite,.BtnDelete{
+ border: none;
+ background: none;
+}
+
+img{
+    height: 110px;
+    width: 110px;
+}
+.About{
+    height: 100%;
+    width: 200px;
+}
+
+.Product{
+    padding-top: 5px;
+    line-height: 10px;
+    font-size: 14px;
+    font-family: 'open sans';
+    font-weight: 700;
+    color: black;
+    
+}
+
+.priceofone{
+    line-height: 20px;
+    font-size: 15px;
+    font-family: 'open sans';
+    font-weight: 600;
+    color: #423d3d;
+}
+
+.Cart-Items .buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.counter{
+    width: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.bttn{
+    width: 25px;
+    height: 25px;
+    border-radius: 20%;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: 900;
+    color: #202020;
+    cursor: pointer;
+}
+.count{
+    font-size: 18px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: #202020;
+}
+
+.price{
+    height: 100%;
+    text-align: right;
+    width: 80px;
+}
+
+.payorleave{
+    height: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Pay{
+    display: flex;
+    flex-direction: column;
+
+}
+
